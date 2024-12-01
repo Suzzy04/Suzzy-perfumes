@@ -1,0 +1,90 @@
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #2a2a2a;
+    color: #fefefe;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #CC5500;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f0b200;
+}
+
+/* Login Form Styling - Positioned at top left corner */
+.login-container {
+    position: absolute;
+    top: 200px; /* Position near the top */
+    left: 20px; /* Position near the left */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 10px; /* Adds space between form elements */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Keeps form compact */
+}
+
+.login-container label {
+    font-weight: bold;
+}
+
+.login-container input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #CC5500;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-container button:hover {
+    background-color: #f0b200;
+}
